@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em Css</title>
+    <style>
+        body{
+             /*o body está com fonte sem serife, essa fonte não chama muita atenção e é facíl de ser compreentida */
+       
+            font-family: 'Work Sans',Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            /* 
+            Medidas absolutas;
+            cm,mm,in,px,pt,pc
+
+            Medidas Relativas
+            em,ex,rem,vw,vh,%
+            16px geralmente = 1em*/
+             font-weight: lighter;
+             font-style: italic;
+             text-decoration: underline;
+            /* weigth = peso*/
+            /* lighter normal bold bolder*/
+        }
+
+        h1{
+            /* shorthand font
+            font-style -> font-weight -> font-size -> font-family
+           
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+      
+       h2{
+            font-family: 'Times New Roman', Times, serif; 
+        }
+       /* o h1,h2 está com fonte serifada, fontes para chamar atenção 
+       */
+
+       h3{
+        font: bold 2em 'work Sans';
+       }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fugiat magnam nemo non reiciendis qui voluptatum impedit deserunt cupiditate similique. Repellat rem dolorum minus asperiores! Omnis aut maiores incidunt perspiciatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt illo sit atque iure. Vero debitis, eligendi, libero animi odit corporis tempore, aspernatur eveniet fuga praesentium vitae esse culpa nesciunt eaque?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore atque commodi mollitia est quisquam recusandae doloremque laborum porro saepe aliquam quas, iusto non omnis ducimus dolorem enim officia placeat itaque!</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio ipsam tempore rerum eveniet, minus consequatur dolores eos perspiciatis laboriosam ducimus, nostrum tempora sit. Laborum, error qui inventore possimus non officiis.</p>
+    <h3>Subtítulo</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, nemo ab eos tenetur dolore provident accusantium consequatur, perspiciatis voluptatibus in at suscipit eaque ullam animi. Architecto ipsum aliquid suscipit mollitia!</p>
+</body>
+</html>

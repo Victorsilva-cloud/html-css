@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        h1{
+            text-align: center;
+        }
+        header{
+            width: 600px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+        }
+        nav{
+            background-color: lightgrey;
+            padding: 10px;
+            margin: auto;
+            box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.466); /* box -shadow  = sombras*/
+        }
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: 40px;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        article{
+            background-color: rgb(187, 189, 190);
+        }
+        article > aside{
+            background-color: rgb(109, 105, 105);
+            padding: 10px;
+        }
+         #assuntos{
+             background-color: rgb(187, 189, 190);
+        }
+        footer{
+              background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+          footer > p{
+            margin: auto;
+          }
+
+          aside > p{
+             background-color: rgb(109, 105, 105);
+            padding: 10px;
+          }
+
+          div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+          }
+    </style>
+</head>
+<body>
+  <header>
+    <h1>Meu site</h1>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+  </header>
+    <main>
+        <section id="assuntos">
+            <h2>Esportes Politica Tecnologia</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, natus facere sit nulla aut quia laboriosam ipsa iure eos explicabo officiis doloribus quos quas, maiores quo dolores distinctio magni perferendis.</p>
+            <aside><p>Artigo Escrito por Augustin Dylle</p></aside>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Nóticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nobis facere autem laudantium perferendis porro soluta officiis, consequuntur totam aliquid debitis minus architecto quidem placeat est. Error, reprehenderit qui? Sit.</p>
+                <aside>
+                    <p>Artigo Escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Campeonato Brasileiro</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere illum autem debitis dignissimos est itaque suscipit explicabo voluptatibus earum neque totam fugiat quidem voluptate, accusamus nisi quod amet ratione nam?</p>
+                <aside>Confederação Brasileiro De Futebol</aside>
+            </article>
+        </section>
+    </main>
+
+    <Footer>
+        <p>Desenvolvido pelo Victor Santos</p>
+    </Footer>
+
+<div id="bola"></div>
+</body>
+</html>
