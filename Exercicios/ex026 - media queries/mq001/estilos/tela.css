@@ -23,6 +23,11 @@ menu ul{
     background-color: gray;
 }
 
+menu > ul > li:hover{
+    background-color: darkgray;
+    
+}
+
 menu li{
     background-color: rgb(63, 63, 63);
     color: white;
