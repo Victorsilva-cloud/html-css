@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 80px 40px 1fr 40px;
+    grid-template-columns: 1fr 150px;
+    gap: 5px;
+    text-align: center;
+}
+
+.topo{
+    background-color: red;
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+
+}
+
+.menu{
+    background-color: green;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+
+}
+
+.principal{
+    background-color: yellow;
+    grid-row: 3 / -2;
+    grid-column: 1 / 2;
+
+}
+
+.secundario{
+    background-color: blue;
+    grid-row: 3 / -2;
+    grid-column: -2 / -1;
+
+}
+
+.rodape{
+    background-color: purple;
+    grid-row: -2 / -1;
+    grid-column: 1 / -1;
+}
